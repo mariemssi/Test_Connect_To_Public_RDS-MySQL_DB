@@ -19,7 +19,7 @@
    You can preview the changes Terraform will make to your infrastructure. For this, you should provide the Input Variables defined in variables.tf. You can define its values as default in the variables.tf file or you can define it as parameters of terraform plan and terraform apply commands
    or Terraform will prompt you to provide their values during the terraform apply process.
 
-   😱 USERNAME and DB-PASSWORD are secrets and It's important to note that using these methods for secrets is not a best practice in production environments.
+   😱 DB-USERNAME and DB-PASSWORD are secrets and It's important to note that using these methods for secrets is not a best practice in production environments.
    For handling secrets securely, consider using more robust methods available in Terraform, such as using external secret management systems or environment variables.  
   
 8. Apply Terraform Changes: `terraform apply`
