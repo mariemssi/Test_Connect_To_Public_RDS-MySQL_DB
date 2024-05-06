@@ -3,7 +3,7 @@
 ![image](https://github.com/mariemssi/Test_Connect_To_Public_RDS-MySQL_DB/assets/69463864/f85de234-28a8-4580-b18d-cb148fb7c19e)
 
 
-
+*Please note: This is not the recommended approach for RDS databases due to security concerns*
 
 ## Provisioning Test Infrastructure with Terraform
 1. Clone the GitHub Repository: `git clone <repository_url>`
