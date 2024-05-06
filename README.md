@@ -35,10 +35,10 @@
 ![image](https://github.com/mariemssi/Test_Connect_To_Public_RDS-MySQL_DB/assets/69463864/2c0fea00-ea87-4873-9fe0-246460e05881)
 
 
-
-
 2. Run SQL queries After successfully connecting
  
 ## Destroying Test Infrastructure
   Destroy Resources (Optional): `terraform destroy`
   Once you have finished testing, it's important to destroy the test environment to avoid incurring unnecessary charges from AWS 😉.
+
+*Please note that the testing environment discussed here is intended for testing purposes only and may not conform to best practices.*
