@@ -16,7 +16,7 @@
    
 5. Review Terraform Plan (Optional): `terraform plan`
    
-   You can preview the changes Terraform will make to your infrastructure. For this, you should provide the Input Variables defined in variables.tf. You can define its values as default in the variables.tf file or you can define it as parameters of terraform plan and terraform apply commands
+   You can preview the changes Terraform will make to your infrastructure. For this, you should provide the Input Variables defined in variables.tf. You can define its values as default in the variables.tf file, or you can define it as parameters of terraform plan and terraform apply commands,
    or Terraform will prompt you to provide their values during the terraform apply process.
 
    😱 DB-USERNAME and DB-PASSWORD are secrets and It's important to note that using these methods for secrets is not a best practice in production environments.
@@ -39,6 +39,7 @@
  
 ## Destroying Test Infrastructure
   Destroy Resources (Optional): `terraform destroy`
+  
   Once you have finished testing, it's important to destroy the test environment to avoid incurring unnecessary charges from AWS 😉.
 
 Additional details can be found [here](https://medium.com/@meriemiag/exploring-ways-to-connect-to-mysql-rds-database-102aec995673)
