@@ -43,4 +43,4 @@
 
 Additional details can be found [here](https://medium.com/@meriemiag/exploring-ways-to-connect-to-mysql-rds-database-102aec995673)
 
-*Please note that the testing environment discussed here is intended for testing purposes only and may not conform to best practices.*
+*Please note that the environment presented here is designed solely for testing purposes and may not adhere to best practices.*
